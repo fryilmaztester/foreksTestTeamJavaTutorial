@@ -1,35 +1,61 @@
 package day07IfStatement01;
 
+import org.junit.Test;
+
 import java.util.Scanner;
 
 public class IfStatement03 {
 
     	/*
 		 Kullanicidan bir character alin.
+
+		 1
 		 Bu character buyuk harf ise "Buyuk Harf" yazdirin
+		 2
 		 Bu character kucuk harf ise "Kucuk Harf" yazdirin
+		 3
 		 Bu character harf degil ise "Harf Degil" yazdirin
 		*/
 
     public static void main(String[] args) {
 
-        /*
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Lutfen bir karakter giriniz....");
-        char ch = scan.next().charAt(0);
+        Scanner klavye=new Scanner(System.in);
+        System.out.print("karakter giriniz:");
+        char c = klavye.nextLine().charAt(0);
 
-        if (ch >= '' && ch<= ''){
-            System.out.println("Büüyk harf");
+        //1.Case
+        if (c>= 'A' && c<= 'Z'){
+            System.out.println("Girilen Karakter Büyük Harftir....");
         }
-        if(ch >= '' && ch<= ''){
-            System.out.println("Kucuk harf");
+
+        //2.Case
+        if (c>= 'a' && c<= 'z'){
+            System.out.println("Girilen Karakter Küçük Harftir....");
         }
-        if (!()){
-            System.out.println("Harf değildir");
+
+        //3.Case
+        if (!(c>= 'A' && c<= 'Z') && !(c>= 'a' && c<= 'z')){
+            System.out.println("Girilen Karakter Bir Harf Değildir...");
         }
+
+
+
+
+        /*
+        if(c>='A' && c<='Z' )
+            System.out.print("Büyük Harf" + "\n" + c +  "\n" + "Girdiniz!");
+        else if (c>='a' && c<='z')
+            System.out.print("küçük Haf" + "\n" + c +  "\n" + "Girdiniz!");
+        else if (c>='0' && c<='9')
+            System.out.print("Sayı" + "\n" + c +  "\n" + "Girdiniz!");
+        else
+            System.out.print("Özel Karakter" + "\n" + c +  "\n" + "Girdiniz!");
 
          */
 
+
+
+    }
         /*
 
         Logic Operator (Mantıksal Operatorler):
@@ -78,5 +104,5 @@ public class IfStatement03 {
 
 
 
-    }
+
 }
