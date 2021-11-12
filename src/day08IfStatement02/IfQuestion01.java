@@ -1,5 +1,7 @@
 package day08IfStatement02;
 
+import java.util.Scanner;
+
 public class IfQuestion01 {
 
     /*
@@ -13,3 +15,9 @@ public class IfQuestion01 {
 
     }
 }
+
+
+
+
+
+

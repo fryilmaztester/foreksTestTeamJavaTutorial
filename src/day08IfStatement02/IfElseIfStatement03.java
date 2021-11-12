@@ -1,5 +1,7 @@
 package day08IfStatement02;
 
+import java.util.Scanner;
+
 public class IfElseIfStatement03 {
 
     /*
@@ -14,6 +16,7 @@ public class IfElseIfStatement03 {
     public static void main(String[] args) {
 
 
-
     }
+
 }
+
