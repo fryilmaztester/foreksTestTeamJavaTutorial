@@ -20,7 +20,7 @@ public class ForLoop04 {
         System.out.println("Lutfen bir kelime giriniz....");
 
         String word = scanner.nextLine();
-
+       // String r = "";
         for (int i = word.length()-1; i>=0; i--){
             System.out.print(word.charAt(i)); //
         }
