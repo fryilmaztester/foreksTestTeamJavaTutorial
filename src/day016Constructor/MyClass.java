@@ -23,7 +23,7 @@ public class MyClass {
 
     MyClass(int i , int i2){
         this(3);
-        this.x-=4;
+        this.x-=4;//x-=4
         System.out.print("-x" + x);
     }
 
