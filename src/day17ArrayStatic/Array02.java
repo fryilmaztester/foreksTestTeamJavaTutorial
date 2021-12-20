@@ -19,11 +19,13 @@ public class Array02 {
             System.out.print(chArr[i] + " "); //f e d c b a
         }
 
+        System.out.println("---------------------------");
+
         // arraydeki cift sayilere denk gelenleri yazdiriniz.
-
-
-
-
-
+        for (int i = 0; i<chArr.length; i++){
+            if (i%2 == 0){
+                System.out.print(chArr[i] + " "); //a,c,e
+            }
+        }
     }
 }
