@@ -11,11 +11,11 @@ public class ForLoop06 {
 		 5+6+7+...12 = ?
 		*/
 
-        int sum = 0; //1
+        double sum = 200000; //1
 
-        for (int i = 5; i<=12 ; i++){
+        for (int i = 1; i<=12 ; i++){
 
-            sum = sum + i; // 0 = 0 + 5 = 5 --> sum=5
+            sum = (sum * 0.1) + sum; // 0 = 0 + 5 = 5 --> sum=5
             System.out.println(i + ". stepdeki toplamı: " + sum);
             /*
             5 + 6 = 11
